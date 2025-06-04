@@ -1,0 +1,37 @@
+Binary Columns:
+Drug
+Sex
+Ascites
+Hepatomegaly
+Spiders
+
+Onehotencoded Columns with column number:
+Status - 1
+Edema - 8
+
+Range of Values:
+N_Days: 41 - 4795
+Age: 9598 - 28650
+
+StandardScaling Needed:
+N_Days
+Age
+Bilirubin
+Cholesterol
+Albumin
+Copper
+Alk_Phos
+SGOT
+Tryglicerides
+Platelets
+Prothrombin
+
+Logistic Regression is providing low accuracy.
+
+Order of the Columns:
+['Status_C', 'Status_CL', 'Status_D', 'Edema_N', 'Edema_S', 'Edema_Y',
+       'N_Days', 'Drug', 'Age', 'Sex', 'Ascites', 'Hepatomegaly', 'Spiders',
+       'Bilirubin', 'Cholesterol', 'Albumin', 'Copper', 'Alk_Phos', 'SGOT', 
+       'Tryglicerides', 'Platelets', 'Prothrombin']
+
+Has a very good score on Random Forest.
