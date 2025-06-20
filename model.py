@@ -3,7 +3,7 @@ import pandas as pd
 dataset = pd.read_csv('liver_cirrhosis.csv')
 # print(dataset.head())
 
-print(dataset.columns.tolist())
+# print(dataset.columns.tolist())
 
 # print(dataset.isnull().sum()) # No empty values
 
